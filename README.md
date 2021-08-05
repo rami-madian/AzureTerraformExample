@@ -1,7 +1,7 @@
 # Module Overview
 
 - The `./main.tf` module provisions three Azure windows virtual machines and a key vault.
-- All the input parameters defined in `./variables.tf` have default reasonable values that be easily overridden when required.
+- All the input parameters defined in `./variables.tf` have default reasonable values that can be easily overridden when required.
 - The default Admin user name for all the 3 VMs is `vmAdmin`
 - The default Admin password for all the 3 VMs is a similar random password with a suffix of 0, 1, and 2 respectively.
 - The `./main.tf` module produces a list of 3 json objects as an output in the following format:
